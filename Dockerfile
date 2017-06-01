@@ -3,8 +3,8 @@ FROM ubuntu:trusty
 ENV DEBIAN_FRONTEND noninteractive
 ENV PATH $PATH:/usr/local/nginx/sbin
 
-EXPOSE 1935
-EXPOSE 80
+EXPOSE 11988
+EXPOSE 11992
 
 # create directories
 RUN mkdir /src /config /logs /data /static
