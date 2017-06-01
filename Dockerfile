@@ -43,7 +43,7 @@ RUN ./configure --add-module=/src/nginx-rtmp-module-1.1.6 \
   make && \
   make install
 
-ADD nginx.conf /config/nginx.conf
+ADD ma_nginx.conf /config/nginx.conf
 ADD static /static
 
 WORKDIR /
